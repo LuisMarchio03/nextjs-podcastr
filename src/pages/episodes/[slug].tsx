@@ -7,11 +7,11 @@ import { convertDurationToTimeString } from "../../utils/convertDurationToTimeSt
 
 import styles from "./episodes.module.scss";
 
+import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
 import { usePlayer } from "../../contexts/PlayerContext";
-import { Head } from "next/document";
 
 type Episode = {
   id: string;

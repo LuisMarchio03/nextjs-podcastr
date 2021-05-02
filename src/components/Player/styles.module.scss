@@ -1,7 +1,13 @@
 .playerContainer {
-  width: 26.5rem;
-  height: 100vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+
+  width: 24.5rem;
+  height: calc(100vh - 6.5rem);
   padding: 3rem 4rem;
+  overflow-x: auto;
 
   background: var(--purple-500);
   color: var(--white);
@@ -14,7 +20,9 @@
   header {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
+    margin-bottom: 2rem;
   }
 
   strong {

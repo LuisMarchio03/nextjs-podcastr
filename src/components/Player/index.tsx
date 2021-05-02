@@ -5,6 +5,7 @@ import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 
 import { PlayerContext } from "../../contexts/PlayerContext";
+import { OpenPlayerContext } from "../../contexts/OpenPlayerContext";
 
 import styles from "./styles.module.scss";
 import { convertDurationToTimeString } from "../../utils/convertDurationToTimeString";
@@ -12,6 +13,8 @@ import { convertDurationToTimeString } from "../../utils/convertDurationToTimeSt
 export function Player() {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [progress, setPogress] = useState(0);
+
+  const { open, openPlayer } = useContext(OpenPlayerContext);
 
   const {
     episodeList,
@@ -66,7 +69,7 @@ export function Player() {
   const episode = episodeList[currentEpisodeIndex];
 
   return (
-    <div className={styles.playerContainer}>
+    <div className={styles.playerContainer} style={{ display: `${open}` }}>
       <header>
         <img src="/playing.svg" alt="Tocando agora" />
         <strong>Tocando agora</strong>

@@ -1,11 +1,15 @@
 import { useContext } from "react";
+
 import { GetStaticProps } from "next";
-import { Head } from "next/document";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+
 import { format, parseISO } from "date-fns";
 import ptBR from "date-fns/locale/pt-BR";
+
 import { api } from "../services/api";
+
 import { convertDurationToTimeString } from "../utils/convertDurationToTimeString";
 
 import { PlayerContext } from "../contexts/PlayerContext";
