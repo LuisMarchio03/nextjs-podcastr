@@ -17,6 +17,11 @@
   align-items: center;
   justify-content: space-between;
 
+  @media (max-width: 900px) {
+    width: 100%;
+    height: calc(100vh - 12rem);
+  }
+
   header {
     display: flex;
     align-items: center;
