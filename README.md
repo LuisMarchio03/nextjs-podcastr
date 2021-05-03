@@ -2,7 +2,7 @@
 
 Projeto desenvolvido na edição 5 da NLW - Rocketseat. Tem como objetivo a criação de uma ferramenta para exibição de podcasts.
 
-<img src="/logo.svg"/>
+<img src="./public/logo.svg"/>
 
 ## 🚀 Começando
 
@@ -52,7 +52,7 @@ Instagram: https://www.instagram.com/luis_marchio/
 
 Linkedin: https://www.linkedin.com/in/lu%C3%ADs-gabriel-marchi%C3%B3-batista-a0aa64206/
 
-## Esse projeto foi desenvolvido durante a NLW#4 da Rocketseat 🚀!
+## Esse projeto foi desenvolvido durante a NLW#5 da Rocketseat 🚀!
 
 Rocketseat YT: https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg
 
