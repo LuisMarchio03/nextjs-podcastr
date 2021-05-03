@@ -44,7 +44,7 @@ Consulte **Implantação** para saber como implantar o projeto.
 
 ## ✒️ Autor
 
-**Luís Gabriel Marchió Batista**
+### Luís Gabriel Marchió Batista
 
 ## 🎇 Minhas redes sociais:
 
