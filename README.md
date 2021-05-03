@@ -1,8 +1,8 @@
 # Podcastr
 
-Projeto desenvolvido na edição 5 da NLW - Rocketseat. Tem como objetivo a criação de uma ferramenta para exibição de podcasts.
+<img src="./public/logo.svg" />
 
-<img src="./public/logo.svg"/>
+Projeto desenvolvido na edição 5 da NLW - Rocketseat. Tem como objetivo a criação de uma ferramenta para exibição de podcasts.
 
 ## 🚀 Começando
 
